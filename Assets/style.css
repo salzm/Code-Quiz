@@ -1,0 +1,49 @@
+.headerr {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    color: hsl(206, 17%, 28%);
+  }
+ 
+  body{
+    background-color:lightblue;
+    font-size: 25px;
+  }
+  
+ /*  */
+  #js timer {
+text-align: center;
+  }
+
+  #timer {
+    color: red;
+    width: 70px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+font-size: 25px;
+}
+
+  .button {
+    position:absolute; 
+    margin-left:-50px;
+    left:50%;
+    width:150px;    
+    bottom:0px;
+    height: 60px;
+    
+  }
+
+  .highscores{
+    color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 25px;
+  }
