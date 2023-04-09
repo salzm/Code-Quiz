@@ -1,4 +1,7 @@
-.headerr {
+
+
+  
+  .headerr {
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
@@ -15,21 +18,57 @@
     background-color:lightblue;
     font-size: 25px;
   }
-  
- /*  */
-  #js timer {
-text-align: center;
+
+  .app {
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
   }
 
-  #timer {
+  .app h1{
+    font-weight: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    text-align: center;
+  }
+
+
+  .quiz{
+    padding:  20px 0;
+  }
+.quiz h2 {
+    font-size:  18px;
     color: red;
-    width: 70px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-font-size: 25px;
+    font-weight: 600;
 }
 
+.btn{
+    background:#fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin:  10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+ /*  */
+  #countdown {
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    font-size: 25px;
+
+  }
   .button {
     position:absolute; 
     margin-left:-50px;
@@ -47,3 +86,5 @@ font-size: 25px;
     left: 0px;
     font-size: 25px;
   }
+
+ 
